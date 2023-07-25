@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- GitHub & GitLab Remotes -->
+  <remote name="gh-hzm"
+          fetch="https://github.com/hzmhnk-dev"
+          revision="tiramisu" />
+
+  <remote name="gl-hzm"
+          fetch="https://gitlab.com/hzmhnk-dev"
+          revision="tiramisu" />
+
+  <!-- OnePlus 9 (lemonade) -->
+  <project name="device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gh-hzm" />
+  <project name="vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" remote="gl-hzm" />
+
+  <!-- OnePlus 9 Pro (lemonadep) -->
+  <project name="device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="gh-hzm" />
+  <project name="vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="gl-hzm" />
+
+  <!-- OnePlus SM8350 (lahaina) -->
+  <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gh-hzm" />
+  <project name="vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gl-hzm" />
+  <project name="kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh-hzm" />
+
+  <!-- OnePlus Hardware -->
+  <project name="hardware_oplus" path="hardware/oplus" remote="gh-hzm" />
+
+  <!-- OnePlus Extras -->
+  <project name="packages_apps_OPlusExtras" path="packages/apps/OPlusExtras" remote="gh-hzm" />
+</manifest>
